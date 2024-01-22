@@ -37,7 +37,7 @@
     position: relative;
 }
 
-.fa-solid:after{
+.fa-solid1:after{
     content: "";
     position: absolute;
     background-color: #1C69D4;
@@ -47,7 +47,7 @@
     bottom: -26px;
 }
 
-.fa-solid:hover:after {
+.fa-solid1:hover:after {
     width: 100%;
 }
 
@@ -152,135 +152,9 @@
     font-weight: 500;
 }
 
-/* phone size */
-
-@media screen and (max-width: 340px) {
-    .container{
-        width: 100%;
-        height: 100vh;
-    }
-
-    .bmlogo{
-        width: 25px;
-        height: 25px;
-    }
-
-    .fa-solid{
-        color: white;
-        font-size: 10px;
-    }
-
-    .location{
-        display: none;
-    }
-
-    .main-div-text{
-        text-align: center;
-    }
-
-    .main-div-text button{
-        width: 100%;
-    }
-
-    .main-div-part2{
-        text-align: center;
-    }
-
-    .nav-items1-ul {
-        display: none;
-    }
-
-    .nav-line {
-        display: none;
-    }
-
-    .sheer {
-        display: none;
-    }
-
-    .pleasure {
-        display: none;
-    }
-
-    /* second div */
-
-    .sec-div-text button{
-        width: 100%;
-    }
 
 
-}
 
-/* tablet size */
-
-@media screen and (min-width:341px) and (max-width:768px) {
-    .container{
-        width: 100%;
-        height: 100vh;
-    }
-
-    .bmlogo{
-        width: 30px;
-        height: 30px;
-    }
-
-    .location{
-        display: none;
-    }
-
-    .main-div-text button{
-        width: 100%;
-    }
-
-    .main-div-part2{
-        text-align: center;
-    }
-
-    .nav-items1-ul {
-        display: none;
-    }
-
-    .nav-line {
-        display: none;
-    }
-
-    .sheer {
-        display: none;
-    }
-
-    .pleasure {
-        display: none;
-    }
-
-    /* second div */
-
-    .sec-div-text{
-        text-align: center;
-    }
-
-    .sec-div-text button{
-        width: 100%;
-    }
-
-}
-
-/* desktop */
-
-@media screen and (min-width: 769px) {
-    .container{
-        width: 100%;
-        height: 100vh;
-    }
-
-    .bmlogo{
-        width: 35px;
-        height: 35px;
-    }
-
-    .bars {
-        display: none;
-    }
-}
 
 
 /* second div */
@@ -343,3 +217,296 @@
 .btn-2:hover {
     cursor: pointer;
 }
+
+
+
+/* shopping tools div */
+
+
+.shopping-tools-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.find-bmw-text{
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.shopping-tools-div p{
+    color: black;
+}
+
+.shopping-tools-div i{
+    color: black;
+}
+
+.shopping-text{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+.fa-car-rear{
+    font-size: 6vh;
+}
+
+.card p{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.card button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card button:hover{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.cards {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/* 7 series div */
+
+.seven-series{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 1)), url("assets/bmw7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.seven-series p{
+    color: white;
+}
+
+
+.seven-text {
+    padding: 100px 50px 50px 50px;
+}
+
+.seven-text p{
+    margin-bottom: 5px;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.seven-btn-1{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* phone size */
+
+@media screen and (max-width: 340px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bmlogo{
+        width: 25px;
+        height: 25px;
+    }
+
+    .fa-solid{
+        color: white;
+        font-size: 10px;
+    }
+
+    .location{
+        display: none;
+    }
+
+    .main-div-text{
+        text-align: center;
+    }
+
+    .main-div-text button{
+        width: 100%;
+    }
+
+    .main-div-part2{
+        text-align: center;
+    }
+
+    .nav-items1-ul {
+        display: none;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .sheer {
+        display: none;
+    }
+
+    .pleasure {
+        display: none;
+    }
+
+    /* second div */
+
+    .sec-div-text button{
+        width: 100%;
+    }
+
+    /* shopping tools */
+
+    .card button{
+        width: 100%;
+    }
+
+    .card{
+        margin-bottom: 40px;
+    }
+
+    /* 7 series */
+
+    .seven-btn-1{
+        width: 100%;
+    }
+
+    .seven-text {
+        text-align: center;
+    }
+
+}
+
+/* tablet size */
+
+@media screen and (min-width:341px) and (max-width:768px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bmlogo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .location{
+        display: none;
+    }
+
+    .main-div-text button{
+        width: 100%;
+    }
+
+    .main-div-part2{
+        text-align: center;
+    }
+
+    .nav-items1-ul {
+        display: none;
+    }
+
+    .nav-line {
+        display: none;
+    }
+
+    .sheer {
+        display: none;
+    }
+
+    .pleasure {
+        display: none;
+    }
+
+    /* second div */
+
+    .sec-div-text{
+        text-align: center;
+    }
+
+    .sec-div-text button{
+        width: 100%;
+    }
+
+    /* shopping tools */
+
+    .card button{
+        width: 50vh;
+    }
+
+    .card{
+        margin-bottom: 40px;
+    }
+
+    /* 7 series */
+
+    .seven-btn-1{
+        width: 50vh;
+    }
+
+    .seven-text {
+        text-align: center;
+    }
+
+}
+
+
+/* desktop */
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bmlogo{
+        width: 35px;
+        height: 35px;
+    }
+
+    .bars {
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .shopping-tools-div{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    /* 7 series */
+
+    .seven-btn-1{
+        width: 200px;
+    }
+}
+

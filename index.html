@@ -25,68 +25,50 @@
                     <img class="bmlogo" src="assets/bmlogo-white.png" alt="">
                     <div class="nav-items-1">
                         <ul class="nav-items1-ul">
-                            <li><a href="#">Models</a></li>
-                            <li><a href="#">Electric</a></li>
+                            <li><a href="#models-page">Models</a></li>
+                            <li><a href="#electric">Electric</a></li>
                             <li><a href="#">Configurator</a></li>
-                            <li><a href="#">Visit Online Shop</a></li>
+                            <li><a href="#shopping">Visit Online Shop</a></li>
                             <li><a href="#">More BMW</a></li>
                         </ul>
                     </div>
 
                     <!-- testing -->
+
                     <div class="nav-items">
                         <nav>
-                            <ul>
+                            <ul class="nav-items-ul">
                                 <li><a href="#"><i class="fa-solid1 fa-solid fa-cart-shopping"></i></a></li>
                                 <li class="location"><a href="#"><i class="fa-solid1 fa-solid fa-location-dot"></i></a></li>
                                 <li><a href="#"><i class="fa-solid1 fa-solid fa-magnifying-glass"></i></a></li>
-                                <li class="bars"><a href="#"><i class="fa-solid1 fa-solid fa-bars"></i></a></li>
+                                <div class="menu-bar">
+                                    <div class="menu-bar-div">
+                                            <input type="checkbox" id="check">
+                                            <label for="check">
+                                                <i class="fa-solid1 fa-solid fa-bars" id="btn"></i>
+                                                <i class="fa-solid1 fa-solid fa-xmark" id="cancel"></i>
+                                            </label>
+                                        <ul class="nav-menu">
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </ul>
                         </nav>
                     </div>
-                    
+
                 </div>
-
-                <!-- for mobile version -->
-
-                <div class="menu-bar">
-                    <div class="menu-bar-div">
-                        
-                            <input type="checkbox" id="check">
-                            <label for="check">
-                                <i class="fa-solid fa-bars" id="btn"></i>
-                                <i class="fa-solid fa-xmark" id="cancel"></i>
-                            </label>
-                            
-                        <ul class="nav-menu">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- mobile version end -->
-
-                <!-- <div class="nav-items">
-                    <nav>
-                        <ul>
-                            <li><a href="#"><i class="fa-solid1 fa-solid fa-cart-shopping"></i></a></li>
-                            <li class="location"><a href="#"><i class="fa-solid1 fa-solid fa-location-dot"></i></a></li>
-                            <li><a href="#"><i class="fa-solid1 fa-solid fa-magnifying-glass"></i></a></li>
-                            <li class="bars"><a href="#"><i class="fa-solid1 fa-solid fa-bars"></i></a></li>
-                        </ul>
-                    </nav>
-                </div> -->
             </div>
 
             <div class="nav-line">
@@ -108,7 +90,7 @@
 
         <!-- x5 div -->
 
-        <div class="sec-div">
+        <div class="sec-div" id="models-page">
                 <div class="sec-div-text">
                     <p class="sec-txt1">THE NEW</p>
                     <p class="sec-txt2">BMW X5</p>
@@ -120,7 +102,7 @@
 
         <!-- shopping tools -->
 
-        <div class="shopping-tools-div">
+        <div class="shopping-tools-div" id="shopping">
             <p class="shopping-text">SHOPPING TOOLS</p>
             <p class="find-bmw-text">FIND YOUR BMW.</p>
             <div class="cards">
@@ -155,7 +137,7 @@
 
         <!-- article div -->
 
-        <div class="article-div">
+        <div class="article-div" id="electric">
             <div class="article">
                 <div class="article-img">
                     <img src="assets/ix.png" alt="">
